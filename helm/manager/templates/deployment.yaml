@@ -17,6 +17,7 @@ spec:
   template:
     metadata:
       labels:
+        logType: "scala"
         app: {{ include "manager.name" . }}
         release: {{ .Release.Name }}
     spec:

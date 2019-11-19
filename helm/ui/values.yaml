@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  full:  hydrosphere/serving-manager-ui:2.0.0
+  full:  hydrosphere/serving-manager-ui:2.1.0
   pullPolicy:  IfNotPresent
 
 env: {}
